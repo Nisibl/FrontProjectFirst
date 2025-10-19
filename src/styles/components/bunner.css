@@ -1,0 +1,33 @@
+.bunner {
+  background-color: var(--color-black-green);
+  display: flex;
+}
+
+.bunner_image {
+  width: 411px;
+  flex-shrink: 0;
+}
+
+.bunner_content {
+  padding-top: 101px;
+  padding-right: 18px;
+  padding-bottom: 323px;
+}
+
+.bunner_head {
+  font-size: 56px;
+  color: var(--color-white);
+}
+
+.bunner_midle {
+  font-size: 20px;
+  line-height: 125%;
+  color: var(--color-white);
+  padding-top: 20px;
+}
+
+.bunner_button {
+  font-size: 20px;
+  line-height: 125%;
+  color: var(--color-black-green);
+}

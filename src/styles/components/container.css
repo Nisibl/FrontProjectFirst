@@ -29,6 +29,11 @@
 
 @media (--xl-viewport) {
   .container {
-    max-width: 1312px;
+    max-width: 1232px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }

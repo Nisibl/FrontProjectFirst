@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 44px 120px 26.85px;
+}
+
+.header_lupa {
+}
+
+.header_menu {
+  display: flex;
+  gap: 30px;
+}
+
+.nav_list {
+  display: flex;
+  gap: 50px;
+}
