@@ -5,29 +5,33 @@
 
 .bunner_image {
   width: 411px;
+  height: 560px;
   flex-shrink: 0;
 }
 
 .bunner_content {
-  padding-top: 101px;
-  padding-right: 18px;
-  padding-bottom: 323px;
-}
+  width: 789px;
+  height: 560px;
+  padding: 101px;
 
-.bunner_head {
-  font-size: 56px;
-  color: var(--color-white);
-}
+  .bunner_head {
+    font-size: 56px;
+    font-weight: 700;
+    color: var(--color-white);
+  }
 
-.bunner_midle {
-  font-size: 20px;
-  line-height: 125%;
-  color: var(--color-white);
-  padding-top: 20px;
-}
+  .bunner_midle {
+    width: 488px;
+    font-size: 20px;
+    line-height: 125%;
+    color: var(--color-white);
+    padding-top: 20px;
+  }
 
-.bunner_button {
-  font-size: 20px;
-  line-height: 125%;
-  color: var(--color-black-green);
+  .bunner_button {
+    font-size: 20px;
+    line-height: 125%;
+    color: var(--color-black-green);
+    margin-top: 35px;
+  }
 }
