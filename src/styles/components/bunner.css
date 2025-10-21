@@ -31,7 +31,9 @@
   .bunner_button {
     font-size: 20px;
     line-height: 125%;
+    background-color: var(--color-white);
     color: var(--color-black-green);
     margin-top: 35px;
+    padding: 15.5px 25.21px 15.5px 25.79px;
   }
 }
