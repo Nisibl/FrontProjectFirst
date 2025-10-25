@@ -3,15 +3,11 @@
   display: flex;
 }
 
-.bunner__image {
-  width: 411px;
-  height: 560px;
+.bunner__media {
   flex-shrink: 0;
 }
 
 .bunner__content {
-  width: 789px;
-  height: 560px;
   padding: 101px;
 
   .bunner__head {
@@ -21,7 +17,6 @@
   }
 
   .bunner__midle {
-    width: 488px;
     font-size: 20px;
     line-height: 125%;
     color: var(--color-white);
@@ -32,4 +27,9 @@
     margin-top: 35px;
     padding: 15.5px 25.21px 15.5px 25.79px;
   }
+}
+
+.bunner_image {
+  height: 100%;
+  object-fit: cover;
 }

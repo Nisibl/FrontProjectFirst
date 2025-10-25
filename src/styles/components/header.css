@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  justify-content: space-between;
   gap: 20px;
   margin-top: 44px;
 }
@@ -14,8 +13,8 @@
 }
 
 .header__nav {
-  width: 472px;
-  height: 21px;
+  margin-left: 200px;
+  margin-right: 303px;
 
   .nav__list {
     display: flex;

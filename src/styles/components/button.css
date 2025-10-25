@@ -2,6 +2,9 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  transition:
+    color 150ms linear,
+    background-color 150ms linear;
 }
 
 .button--on-card {
@@ -9,4 +12,8 @@
   line-height: 125%;
   background-color: var(--color-white);
   color: var(--color-black-green);
+
+  &:hover {
+    background-color: #cacaca;
+  }
 }
