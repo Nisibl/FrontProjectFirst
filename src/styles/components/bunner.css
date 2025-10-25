@@ -3,24 +3,24 @@
   display: flex;
 }
 
-.bunner_image {
+.bunner__image {
   width: 411px;
   height: 560px;
   flex-shrink: 0;
 }
 
-.bunner_content {
+.bunner__content {
   width: 789px;
   height: 560px;
   padding: 101px;
 
-  .bunner_head {
+  .bunner__head {
     font-size: 56px;
     font-weight: 700;
     color: var(--color-white);
   }
 
-  .bunner_midle {
+  .bunner__midle {
     width: 488px;
     font-size: 20px;
     line-height: 125%;
@@ -28,11 +28,7 @@
     padding-top: 20px;
   }
 
-  .bunner_button {
-    font-size: 20px;
-    line-height: 125%;
-    background-color: var(--color-white);
-    color: var(--color-black-green);
+  .bunner__button {
     margin-top: 35px;
     padding: 15.5px 25.21px 15.5px 25.79px;
   }

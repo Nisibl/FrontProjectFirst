@@ -5,24 +5,24 @@
   margin-top: 44px;
 }
 
-.header_lupa {
+.header__lupa {
 }
 
-.header_menu {
+.header__menu {
   display: flex;
   gap: 30px;
 }
 
-.header_nav {
+.header__nav {
   width: 472px;
   height: 21px;
 
-  .nav_list {
+  .nav__list {
     display: flex;
     gap: 50px;
     font-size: 16px;
 
-    .nav_item {
+    .nav__item {
       margin-right: 20px;
       color: var(--color-black-no-black);
     }

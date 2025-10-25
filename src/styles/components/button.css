@@ -5,4 +5,8 @@
 }
 
 .button--on-card {
+  font-size: 20px;
+  line-height: 125%;
+  background-color: var(--color-white);
+  color: var(--color-black-green);
 }

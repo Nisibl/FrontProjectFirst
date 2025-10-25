@@ -4,19 +4,19 @@
   min-height: 100vh;
 }
 
-.page_header {
+.page__header {
   flex-shrink: 0;
 }
 
-.page_content {
+.page__content {
   flex-grow: 1;
 }
 
-.page_footer {
+.page__footer {
   flex-shrink: 0;
 }
 
-.page_bunner {
+.page__bunner {
   margin-top: 26.85px;
   margin-bottom: 140.11px;
 }
